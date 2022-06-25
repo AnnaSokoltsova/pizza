@@ -1,0 +1,237 @@
+body {
+    background-color: #F6ECEC;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    position: relative;
+}
+
+.smallleaf {
+    position: absolute;
+    top: -46px;
+    left: 546px;
+}
+
+.body_container { 
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 156px;
+} 
+
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    position: relative;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    padding-left: 90px;
+    padding-right: 100px;
+    z-index: 2;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_shop, .nav_menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu li, .nav_shop li {
+    display: inline-block;
+}
+
+.nav_menu_li {
+    margin-right: 36px;
+}
+
+.nav_menu_li:hover {
+    color: #EC0000;
+    transition: 500ms;
+}
+
+.nav_shop_li:not(:last-of-type) {
+    margin-right: 24px;
+}
+
+.button {
+    padding: 10px 11px;
+    background: #EC0000;
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.button:hover {
+    background-color:#ec5e00;
+    transition: 500ms;
+}
+
+.button_nav {
+    width: 103px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.order {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 116px;
+    
+}
+
+.order_text {
+    width: 594px;
+    margin-top: 164px;
+    margin-bottom: 134px;
+}
+
+.order_text h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 74px;
+}
+
+.order_text p {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 58px;
+    margin-top: 10px;
+}
+
+.order_img {
+    margin-right: 0;
+}
+
+.button_order {
+    width: 182px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 36px;
+}
+
+.menu {
+    background-color: #fff;
+    height: 791px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 60px 245px 113px;
+    position: relative;
+    z-index: 2;
+}
+
+.menu h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 74px;
+    text-align: center;
+}
+
+.menu_wrapper {
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.menu_item {
+    width: 290px;
+    border: 1px solid #BDBDBD;
+    border-radius: 180px 180px 30px 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+}
+
+.menu_item:not(:last-of-type) {
+    margin-right: 40px;
+}
+
+.pizza_icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.menu_item h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    align-items: center;
+}
+
+.menu_item .pizza_descr {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.menu_item .pizza_price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #05A84B;
+    margin-top: 20px;
+}
+
+#size {
+    display: block;
+    width: 243px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #4F4F4F;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+
+.button_menu {
+    width: 243px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;   
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.smalltomato {
+    position: absolute;
+    left: 1300px;
+    top: -70px;
+}
+
+.largeleaf {
+    position: absolute;
+    right: 1250px;
+    top: 70px;
+}
+.largetomato {
+    position: absolute;
+    top: 1490px;
+    left: 80px;
+}
+
+.mediumleaf {
+    position: absolute;
+    top: 1550px;
+    right: -20px;
+}
